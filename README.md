@@ -16,7 +16,7 @@ For rails users, add the gem to your Gemfile:
 Add the following to config/initializers/omniauth.rb:
 
     Rails.application.config.middleware.use OmniAuth::Builder do
-	provider :miicard, 'YOUR CONSUMER KEY', 'YOUR CONSUMER SECRET'
+        provider :miicard, 'YOUR CONSUMER KEY', 'YOUR CONSUMER SECRET'
     end
 
 Obtain a consumer key and secret by requesting them from miiCard over at the [developers site](http://www.miicard.com/developers/getting-started).
