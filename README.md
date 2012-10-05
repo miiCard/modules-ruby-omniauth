@@ -23,6 +23,8 @@ Obtain a consumer key and secret by requesting them from miiCard over at the [de
 
 Log a user in using their miiCard by directing them to the URL /auth/MiiCard.
 
+The OmniAuth hash will be populated depending on what information the miiCard member has elected to share. If they have published a public profile, then its URL will be available in the :urls hash entry, keyed "Identity assured by miiCard".
+
 ##Dependencies
 The gem takes dependencies only on OmniAuth. You may wish to make subsequent calls to the miiCard API using the credentials that are returned by this OmniAuth strategy, in which case you should also see the Ruby miiCard API wrapper on [RubyGems.org](https://rubygems.org/gems/miiCardConsumers) or [GitHub](https://github.com/miiCard/api-wrappers-ruby).
 
