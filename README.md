@@ -31,7 +31,7 @@ The gem takes dependencies only on OmniAuth. You may wish to make subsequent cal
 ##Contributing
 * Use GitHub issue tracking to report bugs in the library
 * If you're going to submit a patch, please base it off the development branch (if one exists) - the master reflects the latest version published to RubyGems.org but may not necessarily be bleeding-edge
-* Join the [miiCard.com developer forums](http://www.miicard.com/developers) to keep up to date with the latest releases and planned changes
+* Join the [miiCard.com developer forums](http://devforum.miicard.com) to keep up to date with the latest releases and planned changes
 
 ##License
 Copyright (c) 2012, miiCard Limited
